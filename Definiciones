@@ -1,0 +1,40 @@
+Lenguaje Markdown ".md"
+
+#Estructuras de datos
+
+Las estructuras de datos más comunes son:
+- Arreglo
+- Pila
+- Cola
+- Lista
+- -Simple
+- -Doble
+- -Circular
+
+
+## Arreglos
+Un arreglo o vector es...
+
+## Pilas 
+Una pila es una estructura de datos que consiste...
+
+>Esto es una cita
+>Hello World
+
+| Encabezado1 | Encabezado2 |
+|----------------|----------------|
+| Elemento 1    | Elemento 2     | 
+
+[google] (google.com)
+![imagen] (./Gato.png)
+
+---
+console.log("Hola Mundo);
+---
+
+
+UN PÁRRAFO DEBE TERMINAR CON DOS ESPACIOS PARA OBTENER EL "ENTER".
+1. '-' Listas
+2. Para tener carácteres del estilo 'negrita itálica', se deben usar los ( * )
+3. * Itálica *
+4. *Negritas*
