@@ -1,14 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\ingelaptop\\Desktop\\V SEM\\ED\\Parcial 1\\E3\\",
+  "WorkspaceRootPath": "C:\\Users\\ingelaptop\\Desktop\\V SEM\\ED\\Parcial 2\\Ejercicios\\Ejercicio 3\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2D14C4CE-0CB8-4C6B-B5FE-DEE3830BD1C2}|E3\\E3.csproj|c:\\users\\ingelaptop\\desktop\\v sem\\ed\\parcial 1\\e3\\e3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2D14C4CE-0CB8-4C6B-B5FE-DEE3830BD1C2}|E3\\E3.csproj|c:\\users\\ingelaptop\\desktop\\v sem\\ed\\parcial 2\\ejercicios\\ejercicio 3\\e3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2D14C4CE-0CB8-4C6B-B5FE-DEE3830BD1C2}|E3\\E3.csproj|solutionrelative:e3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2D14C4CE-0CB8-4C6B-B5FE-DEE3830BD1C2}|E3\\E3.csproj|c:\\users\\ingelaptop\\desktop\\v sem\\ed\\parcial 1\\e3\\e3\\clasenodo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2D14C4CE-0CB8-4C6B-B5FE-DEE3830BD1C2}|E3\\E3.csproj|c:\\users\\ingelaptop\\desktop\\v sem\\ed\\parcial 2\\ejercicios\\ejercicio 3\\e3\\program2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D14C4CE-0CB8-4C6B-B5FE-DEE3830BD1C2}|E3\\E3.csproj|solutionrelative:e3\\program2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D14C4CE-0CB8-4C6B-B5FE-DEE3830BD1C2}|E3\\E3.csproj|c:\\users\\ingelaptop\\desktop\\v sem\\ed\\parcial 2\\ejercicios\\ejercicio 3\\e3\\clasenodo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2D14C4CE-0CB8-4C6B-B5FE-DEE3830BD1C2}|E3\\E3.csproj|solutionrelative:e3\\clasenodo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D14C4CE-0CB8-4C6B-B5FE-DEE3830BD1C2}|E3\\E3.csproj|c:\\users\\ingelaptop\\desktop\\v sem\\ed\\parcial 2\\ejercicios\\ejercicio 3\\e3\\clasepiladinamica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D14C4CE-0CB8-4C6B-B5FE-DEE3830BD1C2}|E3\\E3.csproj|solutionrelative:e3\\clasepiladinamica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,33 +26,56 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ClaseNodo.cs",
-              "DocumentMoniker": "C:\\Users\\ingelaptop\\Desktop\\V SEM\\ED\\Parcial 1\\E3\\E3\\ClaseNodo.cs",
-              "RelativeDocumentMoniker": "E3\\ClaseNodo.cs",
-              "ToolTip": "C:\\Users\\ingelaptop\\Desktop\\V SEM\\ED\\Parcial 1\\E3\\E3\\ClaseNodo.cs",
-              "RelativeToolTip": "E3\\ClaseNodo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-14T15:38:45.165Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\ingelaptop\\Desktop\\V SEM\\ED\\Parcial 1\\E3\\E3\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\ingelaptop\\Desktop\\V SEM\\ED\\Parcial 2\\Ejercicios\\Ejercicio 3\\E3\\Program.cs",
               "RelativeDocumentMoniker": "E3\\Program.cs",
-              "ToolTip": "C:\\Users\\ingelaptop\\Desktop\\V SEM\\ED\\Parcial 1\\E3\\E3\\Program.cs",
+              "ToolTip": "C:\\Users\\ingelaptop\\Desktop\\V SEM\\ED\\Parcial 2\\Ejercicios\\Ejercicio 3\\E3\\Program.cs",
               "RelativeToolTip": "E3\\Program.cs",
-              "ViewState": "AgIAAKgAAAAAAAAAAAAUwLMAAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAACoAAAAAAAAAAAAYwBUAAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-14T15:36:32.853Z",
+              "WhenOpened": "2025-10-30T20:33:42.162Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program2.cs",
+              "DocumentMoniker": "C:\\Users\\ingelaptop\\Desktop\\V SEM\\ED\\Parcial 2\\Ejercicios\\Ejercicio 3\\E3\\Program2.cs",
+              "RelativeDocumentMoniker": "E3\\Program2.cs",
+              "ToolTip": "C:\\Users\\ingelaptop\\Desktop\\V SEM\\ED\\Parcial 2\\Ejercicios\\Ejercicio 3\\E3\\Program2.cs",
+              "RelativeToolTip": "E3\\Program2.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD4AAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-30T20:32:18.555Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ClaseNodo.cs",
+              "DocumentMoniker": "C:\\Users\\ingelaptop\\Desktop\\V SEM\\ED\\Parcial 2\\Ejercicios\\Ejercicio 3\\E3\\ClaseNodo.cs",
+              "RelativeDocumentMoniker": "E3\\ClaseNodo.cs",
+              "ToolTip": "C:\\Users\\ingelaptop\\Desktop\\V SEM\\ED\\Parcial 2\\Ejercicios\\Ejercicio 3\\E3\\ClaseNodo.cs",
+              "RelativeToolTip": "E3\\ClaseNodo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-14T15:38:45.165Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ClasePilaDinamica.cs",
+              "DocumentMoniker": "C:\\Users\\ingelaptop\\Desktop\\V SEM\\ED\\Parcial 2\\Ejercicios\\Ejercicio 3\\E3\\ClasePilaDinamica.cs",
+              "RelativeDocumentMoniker": "E3\\ClasePilaDinamica.cs",
+              "ToolTip": "C:\\Users\\ingelaptop\\Desktop\\V SEM\\ED\\Parcial 2\\Ejercicios\\Ejercicio 3\\E3\\ClasePilaDinamica.cs",
+              "RelativeToolTip": "E3\\ClasePilaDinamica.cs",
+              "ViewState": "AgIAAJAAAABAmpmZmRknwLUAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-14T15:36:32.853Z"
             }
           ]
         }
