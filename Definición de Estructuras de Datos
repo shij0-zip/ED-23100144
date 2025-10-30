@@ -1,0 +1,127 @@
+#Investigación: Estructuras de Datos
+
+Las **estructuras de datos** son métodos o formas de organizar y almacenar información en una computadora para que puedan ser utilizadas de manera eficiente. Se dividen principalmente en tres categorías: **lineales**, **no lineales** y **abstractas**.
+
+---
+
+##Estructuras de Datos Lineales
+
+En una **estructura lineal**, los elementos se organizan de manera secuencial, uno detrás de otro. Cada elemento tiene un **predecesor** y un **sucesor** (excepto el primero y el último).
+
+### 1. Arreglos (Arrays)
+Un **arreglo** es una colección de elementos del *mismo tipo de dato*, almacenados en posiciones contiguas de memoria.  
+Cada elemento se identifica por un **índice**.
+
+#### ▪ Arreglo Unidimensional
+Un **arreglo unidimensional** es una lista lineal simple.  
+Ejemplo: `numeros = [5, 10, 15, 20]`
+
+- Se accede mediante un solo índice: `numeros[0]`, `numeros[1]`, etc.
+- Ideal para almacenar listas, secuencias o vectores.
+
+#### ▪ Arreglo Multidimensional
+Un **arreglo multidimensional** contiene más de una dimensión, como una matriz o tabla.  
+Ejemplo: `matriz[3][3]`
+
+- Se usa para representar datos en forma de *filas y columnas*.
+- Común en aplicaciones científicas o gráficas.
+
+---
+
+### 2. Pilas (Stacks)
+Una **pila** es una estructura de tipo *LIFO* (**Last In, First Out**), donde el último elemento en entrar es el primero en salir.
+
+- Las operaciones principales son:
+  - `push`: agregar un elemento.
+  - `pop`: eliminar el elemento superior.
+  - `peek` o `top`: ver el elemento superior sin eliminarlo.
+- Ejemplo: el manejo del historial en un navegador o la ejecución de funciones en un programa.
+
+---
+
+### 3. Colas (Queues)
+Una **cola** es una estructura de tipo *FIFO* (**First In, First Out**), donde el primer elemento en entrar es el primero en salir.
+
+- Las operaciones principales son:
+  - `enqueue`: insertar un elemento al final.
+  - `dequeue`: eliminar el primer elemento.
+- Ejemplo: la impresión de documentos o la atención en una fila de clientes.
+
+---
+
+### 4. Listas Enlazadas (Linked Lists)
+Una **lista enlazada** está compuesta por *nodos*, donde cada nodo contiene un **dato** y una **referencia (enlace)** al siguiente nodo.
+
+#### ▪ Lista Simplemente Enlazada
+Cada nodo apunta únicamente al **siguiente nodo** de la lista.
+
+- Permite recorrer la lista solo en un sentido.
+- Ejemplo: cadenas de tareas secuenciales.
+
+#### ▪ Lista Doblemente Enlazada
+Cada nodo tiene dos referencias: una al **nodo siguiente** y otra al **nodo anterior**.
+
+- Permite recorrer la lista en ambos sentidos.
+- Ideal para sistemas donde se requiere navegación hacia adelante y hacia atrás.
+
+#### ▪ Lista Circular
+El último nodo se enlaza nuevamente con el **primer nodo**, formando un ciclo.
+
+- No existe un final explícito.
+- Útil en aplicaciones que requieren recorrer elementos de forma continua (como listas de reproducción o juegos).
+
+---
+
+##Estructuras de Datos No Lineales
+
+En una **estructura no lineal**, los elementos no siguen una secuencia única, sino que se relacionan de manera jerárquica o con múltiples conexiones.
+
+### 1. Grafos (Graphs)
+Un **grafo** es un conjunto de **nodos (vértices)** conectados mediante **aristas (edges)**.
+
+- Puede ser *dirigido* o *no dirigido*.
+- Representa relaciones complejas, como redes sociales, mapas o sistemas de transporte.
+
+*Ejemplo:*  
+Un grafo puede representar las rutas entre ciudades, donde los vértices son las ciudades y las aristas las carreteras.
+
+### 2. Árboles (Trees)
+Un **árbol** es una estructura jerárquica formada por **nodos** conectados mediante *ramas*.
+
+- El nodo principal se llama **raíz**.
+- Los nodos que dependen de otro se llaman **hijos**.
+- No existen ciclos.
+
+*Ejemplo:*  
+Un árbol de directorios en un sistema operativo o un árbol genealógico.
+
+---
+
+##Estructuras de Datos Abstractas
+
+Las **estructuras abstractas** definen el comportamiento lógico de los datos sin preocuparse por su implementación física.
+
+### 1. Conjunto (Set)
+Un **conjunto** es una colección de elementos *únicos*, sin orden específico.
+
+- No permite duplicados.
+- Se usan para operaciones matemáticas como **unión**, **intersección** o **diferencia**.
+
+*Ejemplo:*  
+`A = {1, 2, 3}`  
+`B = {3, 4, 5}`  
+→ `A ∩ B = {3}`
+
+### 2. Diccionario (Dictionary)
+Un **diccionario** o *mapa* almacena **pares clave-valor**, donde cada *clave* es única y se asocia a un *valor*.
+
+- Permite acceder rápidamente a la información mediante la clave.
+- Común en lenguajes como Python (`dict`) o JavaScript (`object`).
+
+*Ejemplo:*  
+```python
+persona = {
+  "nombre": "Ana",
+  "edad": 22,
+  "ciudad": "México"
+}
