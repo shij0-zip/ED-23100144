@@ -1,0 +1,49 @@
+using System;
+
+class Program
+{
+    static void Burbuja(int[] arreglo)
+    {
+        bool cambio;
+
+        // Ciclo externo
+        for (int i = 0; i <= arreglo.Length - 1; i++)
+        {
+            cambio = false;
+
+            // Ciclo interno
+            for (int j = 0; j <= arreglo.Length - 2; j++)
+            {
+                // Comparación
+                if (arreglo[j] >= arreglo[j + 1])
+                {
+                    // Intercambio
+                    int temporal = arreglo[j];
+                    arreglo[j] = arreglo[j + 1];
+                    arreglo[j + 1] = temporal;
+
+                    cambio = true;
+                }
+            }
+
+            // Si no hubo cambios, el arreglo ya está ordenado
+            if (cambio == false)
+                return;
+        }
+    }
+
+    static void Main()
+    {
+        int[] numeros = { 5, 3, 8, 4, 1 };
+
+        Console.WriteLine("Arreglo original:");
+        Console.WriteLine(string.Join(", ", numeros));
+
+        Burbuja(numeros);
+
+        Console.WriteLine("\nArreglo ordenado:");
+        Console.WriteLine(string.Join(", ", numeros));
+
+        Console.ReadLine();
+    }
+}
