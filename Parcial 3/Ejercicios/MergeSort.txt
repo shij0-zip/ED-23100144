@@ -1,0 +1,53 @@
+public class MergeSortCodigo {
+
+    public static int[] MergeSort(int[] Arreglo) {
+        if (Arreglo.length == 1) {
+            return Arreglo; 
+        }
+
+        int ptMedio = Arreglo.length / 2;
+        
+        int[] Izquierdo = new int[ptMedio];
+        int[] Derecho = new int[Arreglo.length - ptMedio];
+        
+        for (int i = 0; i < ptMedio; i++) {
+            Izquierdo[i] = Arreglo[i];
+        }
+        for (int i = ptMedio; i < Arreglo.length; i++) {
+            Derecho[i - ptMedio] = Arreglo[i];
+        }
+
+        int[] mslzquierdo = MergeSort(Izquierdo);
+        int[] msDerecho = MergeSort(Derecho);
+
+        return Union(mslzquierdo, msDerecho);
+    }
+
+    public static int[] Union(int[] arrIzquierdo, int[] arrDerecho) {
+        int[] arrResultado = new int[arrIzquierdo.length + arrDerecho.length];
+        int i = 0; 
+        int j = 0; 
+        int k = 0; // Índice para arrResultado
+
+        while (i < arrIzquierdo.length && j < arrDerecho.length) {
+            // Diamante: arrIzquierdo[i] < arrDerecho[j]
+            if (arrIzquierdo[i] < arrDerecho[j]) {
+                // arrResultado[] += arrIzquierdo[i], i++
+                arrResultado[k++] = arrIzquierdo[i++];
+            } else {
+                // arrResultado[] += arrDerecho[j], j++
+                arrResultado[k++] = arrDerecho[j++];
+            }
+        }
+
+        while (j < arrDerecho.length) {
+            arrResultado[k++] = arrDerecho[j++];
+        }
+
+        while (i < arrIzquierdo.length) {
+            arrResultado[k++] = arrIzquierdo[i++];
+        }
+
+        return arrResultado;
+    }
+}

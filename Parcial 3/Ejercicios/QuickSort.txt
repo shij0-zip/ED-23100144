@@ -1,0 +1,40 @@
+public class QuickSortCodigo
+    {
+
+    public static void QuickSort(int[] Arreglo, int Inicio, int Final) 
+        {
+        if (Inicio < Final) 
+        {
+            int Pivote = Div(Arreglo, Inicio, Final);
+
+            QuickSort(Arreglo, Inicio, Pivote - 1);
+            QuickSort(Arreglo, Pivote + 1, Final);
+        }
+        return;
+    }
+
+    public static int Div(int[] Arreglo, int Inicio, int Final) 
+        {
+        int Pivote = Arreglo[Final];
+        int Posicion = Inicio - 1;         
+        for (int j = Inicio; j <= Final - 1; j++) 
+        {
+            if (Arreglo[j] < Pivote) {
+                Posicion++;
+                
+                Cambiar(Arreglo, Posicion, j); 
+            }
+        }
+        
+        Cambiar(Arreglo, Posicion + 1, Final);
+
+        return Posicion + 1;
+    }
+    
+    public static void Cambiar(int[] Arreglo, int a, int b) 
+    {
+        int Temporal = Arreglo[a];
+        Arreglo[a] = Arreglo[b];
+        Arreglo[b] = Temporal;
+    }
+}
